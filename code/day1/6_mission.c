@@ -1,3 +1,8 @@
+/**
+ * @author  Minhyuk Choi (pianoguy0322@gmail.com)
+ * @brief   function that upgrades scores by 5 points using pointer arithmetic
+ */
+
 void upgrade_score(int *p_score) {
     for (int i = 0; i < 5; i++) {
         p_score[i] += 5; 
